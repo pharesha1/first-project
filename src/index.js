@@ -11,6 +11,12 @@ root.render(
   </React.StrictMode>
 );
 
+const shit = ReactDOM.createRoot(document.getElementById('shit'));
+
+shit.render(
+  <h1>sub </h1>
+);
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
