@@ -2,7 +2,6 @@ import React from "react";
 
 export default function Content(){
     return(
-      <main>
         <div className='content'>
           <h1>Fun facts about react</h1>
         <ul className='ordered-list'>
@@ -32,6 +31,5 @@ export default function Content(){
           Proin aliquam risus et purus rutrum, et placerat lectus bibendum.</li>
         </ul>
         </div>
-      </main>
     );
   }
